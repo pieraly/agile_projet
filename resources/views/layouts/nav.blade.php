@@ -18,6 +18,13 @@
                            <a href="/details">Caractéristiques</a>
                            <a href="/gallery">Gallerie</a>
                            <a href="/contact">Contact</a>
+                           <a href="#" class="btn btn-default btn-flat float-right border"
+                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            Se déconnecter <i class="fa-solid fa-right-from-bracket"></i>
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
                         </div>
                         </div>
                         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
