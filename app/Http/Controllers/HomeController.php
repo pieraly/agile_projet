@@ -25,4 +25,43 @@ class HomeController extends Controller
     {
         return view('index');
     }
+
+        /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function about()
+    {
+        return view('about');
+    }
+
+          /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function gallery()
+    {
+        return view('gallery');
+    }
+          /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function contact()
+    {
+        return view('contact');
+    }
+
+          /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function details()
+    {
+        return view('details');
+    }
 }

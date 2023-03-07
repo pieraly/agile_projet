@@ -4,7 +4,7 @@
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    
+
     .header-search {
         padding: 15px 0px;
     }
@@ -149,7 +149,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+
     .titlepage h2::after {width: 58%;}
     .about-box .titlepage h2::after {
         width: 52%;
@@ -173,7 +173,7 @@ width: 30%;
 .magna_text { font-size: 20pt; line-height: 28px;}
 .more_bt { width: 24%; height: 60px;}
 .about { width: 100%; float: left; padding-top: 40px; }
-.pet_taital { font-size: 42pt;}
+.pet_taital { font-size: 32pt;}
 .lorem_text { font-size: 18pt; padding: 0px;}
 .dog_bt { height: 60px; font-size: 20pt;}
 .email_bt { width: 82%; }
@@ -181,7 +181,7 @@ width: 30%;
 .adderess_text { font-size: 21pt;}
 .icons { width: 35%;}
 .mail_section li { padding-right: 12px;}
-.map_text { padding-left: 8px;} 
+.map_text { padding-left: 8px;}
 
 
 
@@ -261,7 +261,7 @@ width: 41%;
     .banner-main .carousel-caption {top: 0%;}
 .titlepage h2 {
 font-size: 42px;
-display: block; 
+display: block;
 }
 #main_slider a.carousel-control-prev {
     position: absolute;
@@ -305,14 +305,14 @@ padding: 126px 40px;
 width: 55%;
 }
 
-.menu_text { width: 100%; float: left; margin-top: 30px; } 
+.menu_text { width: 100%; float: left; margin-top: 30px; }
 .taital {
     width: 100%;
     font-size: 46pt;
     text-align: left;
 }
 .ram { width: 100%; }
-.consectetur_text { font-size: 18pt; line-height: 30px; margin-left: 0px;} 
+.consectetur_text { font-size: 18pt; line-height: 30px; margin-left: 0px;}
 .numbar_text { width: 20%;}
 .read_bt { width: 80%; height: 70px; font-size: 20pt; }
 .about_taital { font-size: 46px;}
@@ -333,7 +333,7 @@ width: 55%;
 
 @media (max-width: 575px) {
     .last { display: none; }
-    .carousel-caption {display: none;} 
+    .carousel-caption {display: none;}
 .header { padding-top: 0px; }
 .logo { float: inherit; padding-bottom: 15px; text-align: center;}
 .btn-primary {max-width: 126px;
@@ -343,8 +343,8 @@ font-size: 14px;}
 .titlepage h2 {
     font-size: 27px;
 }
-.sporrt_text{ 
-     font-size: 23px; 
+.sporrt_text{
+     font-size: 23px;
      margin-top: 0px;
 }
 .main {
@@ -408,7 +408,7 @@ font-size: 16px;
 ul.link li {
 
     padding: 8px 12px;
-    padding-bottom: 0px; 
+    padding-bottom: 0px;
 }
 
 

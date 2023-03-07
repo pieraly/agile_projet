@@ -143,19 +143,19 @@ a {
 }
 
 .header_section{
-	width: 100%; 
+	width: 100%;
 	float: left;
 	background-image: url(../images/banner.jpg);
 	height: auto;
-	padding-top: 20px;	
+	padding-top: 20px;
 	background-size: cover;
     background-repeat: no-repeat;
 }
 
-.active{ 
+.active{
 	background-color: #ffffff;
-	padding-top: 5px; 
-	padding-bottom: 5px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
 	color: #000;
   margin-top: 10px;
 
@@ -167,15 +167,15 @@ a {
 
 }
 .menu_text ul{ margin:0px; padding: 0px;}
-.menu_text li{ 
-	float: left; 
+.menu_text li{
+	float: left;
 	padding-right: 15px;
-  padding-left: 15px; 
+  padding-left: 15px;
 	font-size: 17pt;
 }
 .menu_text li a{
 	color: #ffffff;
-} 
+}
 
 .last{
 	padding-top: 20px;
@@ -189,7 +189,7 @@ a {
 }
 
 .taital{
-	width: 57%; 
+	width: 57%;
 	float: left;
 	font-size: 60pt;
 	color: #ffffff;
@@ -243,7 +243,20 @@ a {
 	height: auto;
 	background-size: 100%;
 	background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: darken;
 }
+.details_section{
+	width: 100%;
+	float: left;
+	background-image: url(../images/details.jpg);
+	height: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: darken;
+}
+
 
 .about_text{
 	width: 100%;
@@ -272,9 +285,9 @@ a {
 }
 
 .magna_text {
-    font-size: 20pt;
+    font-size: 18pt;
     color: #060401;
-    text-align: right;
+    text-align: left;
     line-height: 40px;
     width: 45%;
     float: right;
@@ -361,7 +374,7 @@ a {
 }
 
 .gallery_section_2{
-	width: 100%; 
+	width: 100%;
 	float: left;
 	background-color: #ffffff;
 	height: auto;
@@ -371,7 +384,7 @@ a {
 .pet_taital{
 	width: 100%;
 	float: left;
-	font-size: 44pt;
+	font-size: 32pt;
 	color: #353434;
 }
 
@@ -416,7 +429,7 @@ a {
 }
 
 .dog_img{
-	width: 100%; 
+	width: 100%;
 	float: left;
 }
 
@@ -490,10 +503,10 @@ button.main_bt {
 }
 
 .touch_section_2{
-	width: 100%; 
+	width: 100%;
 	float: left;
 	background-color: #f7941d;
-	padding-top: 40px;	
+	padding-top: 40px;
 	padding-bottom: 40px;
 	height: auto;
 }
@@ -543,10 +556,10 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	background-color: #000;
 	border-top-right-radius: 30px !important;
 	color: #fff;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	padding-top: 10px;
 	border-bottom-right-radius: 30px !important;
-	border: 0px; 
+	border: 0px;
 	font-size: 17pt;
 }
 
@@ -567,7 +580,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	background-color: #272222;
 	height: auto;
 	padding-top: 30px;
-	padding-bottom: 30px; 
+	padding-bottom: 30px;
 
 }
 
@@ -665,14 +678,14 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 }
 .icons li{ float: left; padding-left: 40px; }
 
-.copyright{ 
+.copyright{
 	width: 100%;
 	float: left;
 	font-size: 12pt;
 	color: #b1b0b0;
 	text-align: center;
 	padding-top: 25px;
-	font-family: Poppins; 
+	font-family: Poppins;
 }
 
 .copyright a{
